@@ -1,0 +1,258 @@
+/* Estilos generales */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+    
+}
+/* Encabezado */
+
+.menu{
+    z-index: 1;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.menu img{
+    padding-right: 72%;
+}
+
+.opciones{
+    color: white;   
+}
+
+.logo1{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-itemlogo{
+    transition: transform 0.3s;
+}
+
+.nav-itemlogo:hover{
+    transform: scale(0.9);
+}
+
+/* secc1 */
+.separador{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.separador img{
+    max-width: 70%;
+    height: auto;
+}
+
+.parrafo1{
+    padding-top: 2%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+/* secc2 */
+.Quienes{
+    background-image: url(img/Kim\ Jong\ In.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.separador2{
+    text-align: center;
+}
+
+.separador2 img{
+    max-width: 70%;
+    height: auto;
+}
+
+.parrafo2{
+    padding-top: 2%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+/* grupos actuales */
+.separador3{
+    padding-top: 7%;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.separador3 img{
+    max-width: 70%;
+    height: auto;
+}
+
+.grupos{
+   text-align: center;
+   padding-bottom: 7%;
+}
+
+.grupos img{
+    max-width: 85%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.grupos img:hover{
+    transform: scale(0.9);
+}
+/* fin grupos actuales */
+
+/* albumes */
+.separador4{
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.separador4 img{
+    max-width: 70%;
+    height: auto;
+}
+
+.tarjeta1 img{
+    position: relative;
+}
+
+.oculto1{
+    position: absolute;
+    top: 50%; /* Alinea el texto verticalmente en el centro del contenedor */
+    left: 50%; /* Alinea el texto horizontalmente en el centro del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto correctamente */
+    opacity: 0; /* Inicialmente, el texto estará oculto */
+    transition: opacity 0.3s; /* Agrega una transición suave para la opacidad */
+}
+
+.tarjeta1 img:hover .oculto1{
+    opacity: 1;
+}
+
+.tarjetas{
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    color: #0d0d0d;
+    padding-bottom: 8%;
+    transition: transform 0.3s;
+}
+
+.tarjetas:hover {
+    transform: scale(0.9);
+}
+/* fin albumes */
+
+
+/* form */
+
+.contacto{
+    background-image: url(img/fondo5.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.separador5{
+    padding-left: 7%;
+}
+
+.separador5 img{
+    max-width: 70%;
+    height: auto;
+}
+
+.form{
+    padding-left: 7%;
+    padding-right: 55%;
+    color: white;
+}
+/* fin form */
+
+/* footer */
+
+.logofooter{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.logofooter img{
+    max-width: 70%;
+    height: auto;
+    padding-left: 2%;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links p {
+    display: inline;
+    margin-right: 10px;
+    color: #646464;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #646464;
+}
+
+.redes img{
+    transition: transform 0.3s;
+}
+
+.redes img:hover {
+    transform: scale(0.8);
+}
+
+.copy {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+
+#preloader{
+    background: #000 url(fondos/load.gif) no-repeat center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
